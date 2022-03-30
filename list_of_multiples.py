@@ -20,4 +20,10 @@ def list_of_multiples_3(inicial, tamanho):
     return list(map(lambda x: inicial * (x + 1), range(tamanho)))
 
 
-print(list_of_multiples_3(3, 10))
+def list_of_multiples_4(inicial, tamanho):
+    def elemento(idx):
+        return inicial * (idx + 1)
+    return list(map(elemento, range(tamanho)))
+
+
+print(list_of_multiples_4(3, 10))
