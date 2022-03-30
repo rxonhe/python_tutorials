@@ -19,6 +19,11 @@ def list_of_multiples_2(number, n):
 def list_of_multiples_3(inicial, tamanho):
     return list(map(lambda x: inicial * (x + 1), range(tamanho)))
 
+# MAP
+# map(function, iterable, ...)
+# map(f(x,y), [1, 2, 3], [4, 5, 6])
+# [f(1, 4), f(2, 5), f(3, 6)] -> list(resultado)
+
 
 def list_of_multiples_4(inicial, tamanho):
     def elemento(idx):
